@@ -271,7 +271,7 @@ abstract class Command implements CommandInterface
             })
             ->implode('');
 
-        return "%/{$this->getName()}{$optionalBotName}{$required}{$optional}{$customRegex}%si";
+        return "%/\w+{$optionalBotName}{$required}{$optional}{$customRegex}%si";
     }
 
     private function formatMatches(array $matches, Collection $required, Collection $optional)

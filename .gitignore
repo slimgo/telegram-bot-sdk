@@ -2,3 +2,9 @@ composer.phar
 composer.lock
 vendor/
 build/
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/telegram-bot-sdk.iml
+/.idea/vcs.xml
